@@ -1,5 +1,7 @@
 
 *{
+    margin-top: 0;
+    padding: 0;
     font-family: 'Work Sans';
 font-style: normal;
 }
@@ -220,4 +222,85 @@ color: #FFFFFF;
 /*------------------- 
 middle section ends 
 ------------------*/
+.main-section-ends{
+    position:absolute;
+    top: 3500px;
+    left: 350px;
+    margin-top: 30px;
+}
+.ends-header{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+top:3440px;
+}
+.main-section-ends-header p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width:570px;
+color: #727272;
+}
+/* ends section flexbox */
+.ends-section-flexbox{
+    display: flex;
+    position:absolute;
+    top: 3850px;
+    left: 390px;
+    gap: 140px;
+    box-sizing: border-box;
 
+
+}
+.flexbox{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 35px 40px;
+text-align: center;
+}
+.flexbox h2{
+    font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+}
+.flexbox p{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;  
+}
+/* Our Sponspors design */
+.sponspors{
+    text-align: center;
+    margin-top: 1550px;
+
+}
+.sponspors-header  {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+   
+
+}
+.sponspors p{
+    padding-left: 689px ;
+    padding-right:689px;
+}
+.sponspors-flexbox{
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+    gap: 140px;
+}
+.footer{
+    margin-top: 130px;
+ margin-left: 240px;
+    text-align: center;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+border-radius: 8px;
+}
+footer p{
+    padding: 40px 410px;
+}
