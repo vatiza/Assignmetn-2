@@ -72,7 +72,9 @@ margin-left: 870px;
 /*--------------------
  main-section design 
 --------------------- */
-
+.main-section-top{
+    display: flex;
+}
 .main-section-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -80,4 +82,38 @@ margin-left: 870px;
     gap: 24px;
     padding-top: 24px;
     padding-left: 301px;
+}
+.main-section-text{
+    margin-top: 200px;
+    margin-left: 73px;
+}
+.main-section-text h2{
+    font-size: 45px;
+    color: #727272;
+}
+.main-section-text #mid-text{
+    font-size: 45px;
+    color: #131313;
+}
+.main-section-text #last-text{
+    color: #FF900E;
+}
+.main-section-pragraph{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-right: 300px;
+}
+.main-section-top .main-btn{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 0;
 }
