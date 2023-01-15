@@ -1,15 +1,18 @@
+
 *{
     font-family: 'Work Sans';
 font-style: normal;
 }
 .header{
-    display: flex;
+    
     width: auto;
-    height: 800px;
+    height: 1450px;
     background-color: rgba(255, 144, 14, 0.1);
 }
 nav, .h2{
+    color: #131313;
     display: flex;
+    font-weight: 700;
     font-size: 45px;
     padding-left: 228px;
     padding-top: 50px;
@@ -17,12 +20,64 @@ nav, .h2{
 ul{
     display: flex;
     gap: 25px   ;
-}
-.nav-navigetion{
+    color: #424242;
     font-weight: 500;
 font-size: 18px;
     list-style-type:none;
     padding-right: 240px;
     padding-top: 63px;
     padding-left: 573PX;
+}
+/*----------------
+ header section
+ ------------------*/
+.section-title{
+    color: #131313;
+    font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+padding-top: 0;
+}
+.section-intro{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 526px;
+    margin-left: 526px;
+}
+.header-btn{
+    background: #FF900E;
+border-radius: 8px;
+width: 180px;
+height: 64px;
+border: none;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+margin-left: 870px;
+
+}
+.header-img{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* header-section end */
+
+/*--------------------
+ main-section design 
+--------------------- */
+
+.main-section-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 650px;
+    gap: 24px;
+    padding-top: 24px;
+    padding-left: 301px;
 }
