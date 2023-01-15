@@ -121,8 +121,62 @@ margin-right: 300px;
 main section middle designe
 ---------------------------- */
 .main-section-middle{
+    margin-top: 130px;
    margin-left: 240px;
     width: 900px;
     height: 500px;
-    border: 3px solid red;
+} 
+/* hr{
+    transform:rotate(45deg);
+    width: 45px;
+    border: 5px solid red;
+} */
+.main-section-title{
+    color: #131313;
+    font-weight: 700;
+    text-align: left;
+font-size: 45px;
+line-height: 53px;
+margin-left: 90px;
+margin-right: 100px;
+}
+/* hr tag design */
+.main-section-middle hr{
+  position:absolute;
+    border:2px solid #FF900E ;
+    width: 100px;
+    transform:rotate(90deg);
+    right: 1530px;
+  top:2360px ;
+    
+   /* hr tag end */
+
+}
+.middle-section-pragraph{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-right: 140px;
+}
+.mid-section-title-box{
+    margin-top: 30px;
+        margin-left: 90px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+width: 586px;
+height: 171px;
+padding: 30px 30px;
+}
+.mid-section-title-box h2{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+}
+.mid-section-title-box p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
 }
