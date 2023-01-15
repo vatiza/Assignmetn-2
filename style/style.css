@@ -141,6 +141,7 @@ margin-left: 90px;
 margin-right: 100px;
 }
 /* hr tag design */
+
 .main-section-middle hr{
   position:absolute;
     border:2px solid #FF900E ;
@@ -160,14 +161,14 @@ color: #727272;
 padding-right: 140px;
 }
 .mid-section-title-box{
-    margin-top: 30px;
+    margin-top: 25px;
         margin-left: 90px;
     background: #FFFFFF;
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-width: 586px;
-height: 171px;
-padding: 30px 30px;
+width: 550px;
+height: 120px;
+padding: 25px 30px;
 }
 .mid-section-title-box h2{
     font-weight: 600;
@@ -180,3 +181,43 @@ font-size: 16px;
 line-height: 26px;
 color: #727272;
 }
+.middle-section-img{
+    position: absolute;
+    left: 980px;
+    top: 2290px;
+    margin-left: 54px;;
+}
+/* --------------
+middle section btn design
+-------------------*/
+.middle-section-btn{
+    position: absolute;
+    width: 342px;
+height: 200px;
+background: #FF900E;
+border-radius: 8px;
+font-weight: 700;
+font-size: 65px;
+line-height: 70px;
+text-align: center;
+color: #FFFFFF;
+border:none;
+margin-left: 54px;
+left: 950px;
+top: 3154px;
+}
+.middle-section-btn span{
+    font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+/*------------------- 
+middle section ends 
+------------------*/
+
